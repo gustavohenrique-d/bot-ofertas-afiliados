@@ -1,0 +1,12 @@
+.env
+config/config.json
+dados/*
+!dados/.gitkeep
+*.db
+*.sqlite
+logs/*
+!logs/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+venv/

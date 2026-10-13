@@ -1,0 +1,47 @@
+{
+  "fuso": "America/Sao_Paulo",
+  "horarios": {
+    "08": 2,
+    "12": 3,
+    "18": 3,
+    "21": 2
+  },
+  "fontes_padrao": ["shopee", "ml"],
+  "publicadores_ativos": ["telegram"],
+  "dias_sem_repetir": 7,
+  "pausa_entre_posts_seg": 5,
+  "multiplicador_candidatos": 3,
+  "avisar_slot_vazio": true,
+  "filtros": {
+    "desconto_minimo_pct": 15,
+    "comissao_minima_pct": 3,
+    "preco_minimo": 20,
+    "preco_maximo": 300,
+    "avaliacao_minima": 4.5,
+    "vendas_minimas": 50,
+    "max_por_palavra_busca": 2,
+    "max_preferidas_por_horario": 2,
+    "palavras_bloqueadas": ["réplica", "replica", "falsificado", "usado", "recondicionado", "+18"],
+    "palavras_preferidas": ["cozinha", "organizador"]
+  },
+  "shopee": {
+    "palavras_busca": ["cozinha", "organizador", "fone bluetooth", "papelaria", "ferramentas"],
+    "ordenacao": 2,
+    "limite_por_busca": 20,
+    "sub_ids": []
+  },
+  "mercadolivre": {
+    "validade_horas": 24
+  },
+  "telegram": {
+    "tentativas": 3,
+    "timeout_seg": 20
+  },
+  "whatsapp": {
+    "pausa_min_seg": 20,
+    "pausa_max_seg": 40,
+    "timeout_seg": 30,
+    "timeout_imagem_seg": 10,
+    "imagem_max_mb": 5
+  }
+}
